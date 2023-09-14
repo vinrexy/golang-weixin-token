@@ -1,0 +1,35 @@
+{
+    "Settings": {
+        "StaticPath": "static",
+        "RedisUrl": "redis://:@47.108.56.215:6379"
+    },
+    "Module": {
+        "WXAccessToken": [
+            {
+                "Id": "WXAccessToken",
+                "ProcessID": "development",
+                "Settings": {
+                    "Port": 3575
+                }
+            }
+        ]
+    },
+    "Log": {
+        "contenttype":"application/json",
+        "multifile": {
+            "maxLines": 0,
+            "maxsize": 0,
+            "daily": true,
+            "rotate": true,
+            "perm": "0600",
+            "separate": [
+                "error"
+            ]
+        }
+    },
+    "Rpc": {
+        "MaxCoroutine": 100,
+        "RpcExpired": 3,
+        "LogSuccess": true
+    }
+}

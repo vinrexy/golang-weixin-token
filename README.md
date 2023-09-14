@@ -1,5 +1,5 @@
 
-# 中控服
+# 微信 accesstoken 中控服
 
 部署
   创建bin目录 并将doc下的conf目录拷贝到bin目录，修改对应的 RedisUrl 和 Port

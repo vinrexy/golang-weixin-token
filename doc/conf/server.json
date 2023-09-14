@@ -1,7 +1,7 @@
 {
     "Settings": {
         "StaticPath": "static",
-        "RedisUrl": "redis://:@47.108.56.215:6379"
+        "RedisUrl": "redis://:@47.108.56.33:6379"
     },
     "Module": {
         "WXAccessToken": [
